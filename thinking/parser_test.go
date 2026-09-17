@@ -4,6 +4,7 @@ import (
 	"testing"
 )
 
+
 func TestExtractThinking(t *testing.T) {
 	tests := []struct {
 		in, wantContent, wantThink string
